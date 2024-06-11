@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Page</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Mooli&display=swap" rel="stylesheet">
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/art.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            <a href="index.html" class="cursive title"><strong>Edrienne Gregana</strong></a>
+        </div>
+    </div>
+    <div class="art-container">
+        <div class="row art-row">
+            <div class="col art-col">
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/bahay.JPG" alt="">
+                    <div class="content">
+                        <h1>Bahay</h1>
+                        <p>My family's farm on top of a mountain in the Philippines.</p>
+                    </div>
+                </div>
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/flowers.JPG">
+                    <div class="content">
+                        <h1>Flowers</h1>
+                        <p>Pretty flowers from the Garfield Park Conservatory, Chicago.</p>
+                    </div>
+                </div>
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/chitown.JPG">
+                    <div class="content">
+                        <h1>Ramen</h1>
+                        <p>A ramen store's beautiful lanterns in Chinatown, Chicago.</p>
+                    </div>
+                </div>
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/ocean.JPG">
+                    <div class="content">
+                        <h1>Ocean</h1>
+                        <p>The serene morning ocean view from a resort in the Philippines.</p>
+                    </div>
+                </div>
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/top.JPG">
+                    <div class="content">
+                        <h1>Grassland</h1>
+                        <p>Mountain top view from Lantawan Grassland, Zamboanga City.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col art-col">
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/bean.JPG">
+                    <div class="content">
+                        <h1>Bean</h1>
+                        <p>The infamous Cloud Gate in Chicago!</p>
+                    </div>
+                </div>
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/spires.JPG">
+                    <div class="content">
+                        <h1>Spirals</h1>
+                        <p>Chicago is home to some of the prettiest architecture I have seen in the US.</p>
+                    </div>
+                </div>
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/buildings.jpeg">
+                    <div class="content">
+                        <h1>City Sights</h1>
+                        <p>What better way to end a day than a sunset smothering the city on a Chicago River tour.</p>
+                    </div>
+                </div>
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/mountain.JPG">
+                    <div class="content">
+                        <h1>Mountain</h1>
+                        <p>The mountain view right before ziplining down the forest in the Philippines.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col art-col">
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/swings.jpeg">
+                    <div class="content">
+                        <h1>Swings</h1>
+                        <p>A snippet of the rides at Navy Pier.</p>
+                    </div>
+                </div>
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/plant.JPG">
+                    <div class="content">
+                        <h1>Glasshouse</h1>
+                        <p>Garfield Park's Conservatory.</p>
+                    </div>
+                </div>
+                <div class="image" onclick="openModal(this)">
+                    <img src="Pics/stainedglass.JPG">
+                    <div class="content">
+                        <h1>Stained Glass</h1>
+                        <p>A stunning stained glass window at the Art Institure of Chicago.</p>
+                    </div>
+                </div>
+            </div>
+        <div>
+    </div>
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="fullImage">
+    </div>
+    <!-- <footer>
+        <div class="row mt-5">
+            <h3>Edrienne Gregana</h3>
+        </div>
+        <div class="row description">
+            <div class="col">
+                <a href="about.html">about</a>
+                <a href="art.html">art</a>
+                <a href="contact.html">contact</a>
+            </div>
+        </div>
+        <div class="row description">
+            <a href="https://www.linkedin.com/in/edrienne-g" target="_blank" class="links">
+                <img src="Pics/linkedinbw.png" alt="linkedin logo" style="max-width: 4%; height: auto;" class="logo">
+            </a>
+            <a href="mailto:edgregana@gmail.com" class="links">
+                <img src="Pics/emailbw.png" alt="linkedin logo" style="max-width: 4%; height: auto;" class="logo">
+            </a>
+        </div>
+        </div>
+    </footer> -->
+</body>
+<!-- javascript -->
+<script src="js/zoom.js"></script>
+</html>
