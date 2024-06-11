@@ -1,0 +1,84 @@
+body {
+    background: #fbf6ec;
+}
+
+.home-link2 {
+    position: absolute;
+    top: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.home-link2:hover {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    transition: transform 0.3s ease-in-out;
+}
+
+.body {
+    margin-top: 9.4rem;
+    margin-left: 0.6rem;
+    font-family: 'Noto Serif', serif;
+}
+
+.body h1 {
+    font-size: 9.4rem;
+    overflow: hidden;
+}
+
+.body p {
+    text-align: left;
+}
+
+.body a{
+    text-decoration: none;
+    color: #12448E;
+}
+
+.body .links {
+    font-size: 1.9rem;
+    margin-left: 3rem;
+}
+
+.body .links:hover {
+    text-decoration: underline;
+}
+
+.body .left{
+    border-right: 2px solid #12448E;
+}
+
+footer {
+    margin-top: 6.25rem;
+    border-top: 2px solid #12448E;
+    background-color: #E6ECF5;
+    /* transition: bottom 0.2s ease-in-out; */
+    
+    color: #12448E;
+    font-size: 1.6rem;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    overflow: hidden;
+    padding: 1.25rem;
+}
+
+footer h1 {
+    font-size: 3rem;
+    font-family: 'Noto Serif', serif;
+}
+
+footer h3 {
+    font-size: 6rem;
+}
+
+footer h4 {
+    font-family: 'Noto Serif', serif;
+}
