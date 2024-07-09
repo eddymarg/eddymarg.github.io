@@ -67,6 +67,22 @@
     text-decoration: none;
 }
 
+.home-link-cream {
+    position: absolute;
+    font-size: 5rem;
+    color: #fbf6ec;
+    text-decoration: none;
+    font-family: 'Cedarville Cursive', cursive;
+    margin-left: 0.5rem;
+}
+
+.home-link-cream:hover {
+    color: #fbf6ec;
+    font-weight: bold;
+    font-size: 5.3rem;
+    text-decoration: none;
+}
+
 @media (max-width: 767px) {
     .title {
         font-size: 1rem;
@@ -86,6 +102,27 @@
     }
 }
 
+/************************************* */
+/* nav-bar                             */
+/************************************* */
+.nav-bar {
+    text-align: right;
+    margin: 4rem 10rem 0 0;
+    font-size: 2rem;
+}
+
+.nav-custom {
+    margin-right: 6rem;
+}
+
+.nav-custom:hover {
+    color:#fbf6ec;
+}
+
+.nav-custom-2 {
+    margin-right: 7.5rem;
+}
+
 
 
 /************************************* */
@@ -93,6 +130,10 @@
 /************************************* */
 .darkblue {
     color: #12448E;
+}
+
+.cream {
+    color: #fbf6ec;
 }
 
 /************************************* */
@@ -139,4 +180,80 @@ footer .description-btm .links:hover{
 footer .description-btm .links{
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
+}
+
+/************************************* */
+/* Animations                          */
+/************************************* */
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/************************************* */
+/* media queries                       */
+/************************************* */
+@media screen and (max-width: 1024px) {
+    .proj-buttons {
+        margin-top: 12rem;
+    }
+}
+
+@media screen and (max-width: 974px) {
+    .home-link-cream {
+        font-size: 3rem;
+    }
+
+    .home-link-cream:hover {
+        font-size: 3.5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-custom {
+        margin-right: 1rem;
+    }
+
+    .nav-custom-2 {
+        margin-right: 0.5rem;
+    }
+
+    .proj-buttons {
+        margin-top: 8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .proj-buttons {
+        margin-top: 5rem 0 0 5rem;
+        width: 50%;
+        padding: none;
+    }
+
+    .hero-descript {
+        font-size: 2.5rem;
+        width: 40%;
+    }
+
+    .cover {
+        width: 50%;
+    }
 }
